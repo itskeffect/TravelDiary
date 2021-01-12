@@ -1,0 +1,52 @@
+#blogPage{
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#logoImg{
+    border-radius: 30%;
+    width: 7vw;
+    height: 7vw;
+    margin-top:7px;
+    margin-right: 10px;
+}
+#logoDiv{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+#dateBlog{
+    font-size:15px;
+    color:grey
+}
+#placeImg img{
+    width: 80%;
+    height: auto;
+}
+#placeAbout{
+    font-family: cursive;
+}
+#like img{
+    cursor: pointer;
+    position: fixed;
+    height: 2vw;
+    width: 2vw;
+    top:30%;
+}
+#share img{
+    cursor: pointer;
+    position: fixed;
+    height: 2vw;
+    width: 2vw;
+    top: 37%;
+}
+#similarArticles{
+    display: flex;
+    justify-content: space-around;
+}
+#similarArticles p{
+    font-size: 30px;
+}
+#s1:hover, #s2:hover, #s3:hover{
+    transform: scale(1.01);
+}

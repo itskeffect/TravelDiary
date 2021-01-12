@@ -1,0 +1,21 @@
+.Hcard{
+    text-align: justify;
+    padding: 10px;
+}
+.content{
+    color: grey;
+}
+.Hcard:hover{
+    cursor:pointer;
+    transform: scale(1.01);
+}
+.Hcard img{
+    float: left;
+    margin-right: 3%;
+    margin-top:1%;
+    width: 200px;
+    height: 160px;
+}
+.dateProp{
+    float: left;
+}

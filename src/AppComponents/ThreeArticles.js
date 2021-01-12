@@ -1,0 +1,35 @@
+import React from 'react';
+import './ThreeArticles.css';
+import AsiaArticles from '../Articles/AsiaArticles.json';
+import ParisArticles from '../Articles/ParisArticles.json';
+import AmericaArticles from '../Articles/AmericaArticles.json';
+import {Link,Route} from 'react-router-dom';
+
+
+class ThreeArticles extends React.Component{
+    render(){
+        return(
+            <div className="mainThreeArticles">
+                <div id="mainArticle">
+                <Link to="/asia/asia-5"> <img src={AsiaArticles[4].pic} />
+                </Link> 
+                
+                <h2>Article 1</h2>
+                <p>{AsiaArticles[4].category}/ {AsiaArticles[4].date}</p>
+                </div>
+                <div className="otherTwo">
+                    <Link to="/paris/paris-2"><img src={ParisArticles[1].pic} />
+                    </Link>  
+                    <h2>Article 2</h2>
+                    <p>{ParisArticles[1].category}/ {ParisArticles[1].date}</p>
+                    <br/> 
+                    <Link to="/america/america-1"> <img src={AmericaArticles[0].pic} />
+                    </Link>  
+                    <h2>Article 3</h2>
+                    <p>{AmericaArticles[0].category}/ {AmericaArticles[0].date}</p>
+                </div>
+            </div>
+        );
+    }
+}
+export default ThreeArticles;

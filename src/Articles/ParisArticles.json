@@ -1,0 +1,80 @@
+[
+    {
+        "id":"21",
+        "pic":"./DLP.jpg",
+       "title":"Disney Land Paris",
+        "category":"Paris",
+        "date":"09 Jan",
+        "bestTimetoVisit":"If you want to visit when the number of Guests is fairly low, plan to stay mid-week (Tuesdays to Thursdays) during mid-January through mid-March or mid-April through mid-May.",
+        "Summary":"Disneyland Paris, formerly Euro Disney Resort, is an entertainment resort in Chessy, France, a town located 32 km east of the centre of Paris.",
+        "Location":"Boulevard de Parc, 77700 Coupvray, France",
+       "Details":"Let yourself be whisked away to the fairytale worlds of your favourite Disney stories! With your family and friends, capture magical selfies with beloved Characters as you wander between attractions, and find even more magic in our Hotels, themed restaurants and shops. Disneyland Paris is home to two theme parks—Disneyland Park and Walt Disney Studios Park—as well as multiple hotels, entertainment offerings, and restaurants. ",
+        "HowToReach":"It's remarkably close to the Paris city center, making a trip to Disneyland extremely easy via suburban commuter trains or car.",
+        "Eatery":"The magic of Disneyland Paris is also found in our diverse cuisine suited to every taste and budget at Disney Parks, Disney Village and Disney Hotels. Rémy's special ratatouille at Bistrot Chez Rémy, fish specialties at Captain Jack’s - Restaurant des Pirates or a succulent steak with delicious side dishes at Silver Spur Steakhouse."
+    },
+    {
+        "id":"22",
+        "pic":"./p1.jpg",
+       "title":"Eiffel Tower",
+        "category":"Paris",
+        "date":"08 Jan",
+        "bestTimetoVisit":"Attendance over the course of the day depends on the period of the year, weather conditions, as well as the day of the week. In general, to feel more comfortable, start your visit early in the morning (before 10:30am) or at the end of the day after 5 PM, or even in the evening.",
+        "Location":"Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+        "Summary":"At first, when it was built for the 1889 World's Fair, it impressed the entire world by its stature and daring design, and symbolized French know-how and industrial genius.",
+       "Details":"The Eiffel Tower is a national monument in Paris, France, that was designed by the company of civil engineer Gustave Eiffel. When it was completed in 1889, it was the tallest man-made structure in the world at 1,063 feet tall. It has three visitor levels, two of which have restaurants. The top level is an observation tower situated 906 feet above the ground. The Eiffel Tower was an icon of French engineering and innovation in the 19th century, as well as a testament to the dominant role that France held in the world at that time.",
+        "HowToReach":"The nearest station to eiffel tower is Tracadero Place(select city range local 9). If you may use city range six, and get off local Bir-Hakeim area place.",
+        "Eatery":"Like most tourist sites in Paris (and around the world), the restaurants near the Eiffel Tower are some of the worst quality and value in the whole city. Nevertheless, if you venture a few blocks away, you can find some fabulous dining options. From neighborhood bistros to cutting-edge contemporary cuisine, here are some of the best restaurants near the Eiffel Tower."
+    },
+    {
+        "id":"23",
+        "pic":"./Triomphe.jpg",
+       "title":"Arc de Triomphe",
+        "category":"Paris",
+        "date":"10 Jan",
+        "bestTimetoVisit":"The best time to visit the Arc is, in my opinion, after 6:30 p.m., when the flame of the unknown soldier is lit and the Champs-Elysées is bathed in shimmering lights. From the observation deck at the top of the arch, breathtaking views of the Eiffel Tower, the Sacré Coeur, and the Louvre are also in store.",
+        "Summary":"The Arc de Triomphe honours those who fought and died for France in the French Revolutionary and Napoleonic Wars, with the names of all French victories and generals inscribed on its inner and outer surfaces. ",
+        "Location":"Place Charles de Gaulle, 75008 Paris, France",
+       "Details":"The Arc de Triomphe de l'Étoile is one of the most famous monuments in Paris, France, standing at the western end of the Champs-Élysées at the centre of Place Charles de Gaulle, formerly named Place de l'Étoile—the étoile or star of the juncture formed by its twelve radiating avenues.",
+        "HowToReach":"The Arc de Triomphe is accessible by the RER and Métro, with exit at the Charles de Gaulle—Étoile station. Because of heavy traffic on the roundabout of which the Arc is the centre, it is recommended that pedestrians use one of two underpasses located at the Champs Élysées and the Avenue de la Grande Armée",
+        "Eatery":"Modern might not be the first word that comes to mind when you think of this historic pastry and macaron shop. However, Ladurée’s menu very much bridges the gap between the 19th and 21st centuries. Inside elegant dining rooms filled with gilded mirrors, carved wood paneling, and crystal chandeliers, you can enjoy fresh lunch items including poke bowls, avocado toasts, creative soups, fluffy omelets, and a section of vegan dishes created for Ladurée by renowned vegan chef Matthew Kenney. Mains range from 12-28€."
+    },
+    {
+        "id":"24",
+        "pic":"./Versailles.jpg",
+       "title":"Palace of Versailles",
+        "category":"Paris",
+        "date":"14 Jan",
+        "bestTimetoVisit":"National holidays, particularly the bevy of long weekends in May, are very busy. The best day to visit is Thursday, and the best time to arrive at the palace is between 2:30 p.m. and 3 p.m. You can't miss the pièce de résistance: the Hall of Mirrors.",
+        "Summary":"The Palace of Versailles was the principal royal residence of France from 1682, under Louis XIV, until the start of the French Revolution in 1789, under Louis XVI.",
+        "Location":"Place d'Armes, 78000 Versailles, France",
+       "Details":"Centuries ago when Louis XIV took the liberty of making drastic renovations to the Château de Versailles, the actual city of Versailles took a backseat when it came to appeal and attraction. Louis XVI sought to represent his great power and authority through imaginative architecture and elaborate decor. This puts the end product mildly; the Château de Versailles is probably the moth unfathomable premises in all of France, and possibly the world (depending on who you ask!).",
+        "HowToReach":"The simplest way to travel from Paris to the Chateaux de Versailles is by RER line C5 to Versailles-Rive Gauche station (Chateau de Versailles is often added to the station name), which is a mere five-minute stroll to the palace.",
+        "Eatery":"If you’re traveling an hour to frolic amongst the royals, then you might as well dine like one. The first restaurant on my list is the one and only Gordon Ramsay au Trianon; the Michelin star restaurant of the food mogul himself."
+    },
+    {
+        "id":"25",
+        "pic":"./NotreDame.jpg",
+       "title":"Cathédrale Notre-Dame de Paris",
+        "category":"Paris",
+        "date":"14 Jan",
+        "bestTimetoVisit":"For me the best time is about 5.30p.m. at night. The queues are small and you can take a seat and about 5.45p.m. you can hear the singing for the Vespers Service. The singing is wonderful and very moving.",
+        "Summary":"The cathedral was consecrated to the Virgin Mary and considered to be one of the finest examples of French Gothic architecture. ",
+        "Location":" 6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France",
+       "Details":"Notre-Dame de Paris, also called Notre-Dame Cathedral, cathedral church in Paris. It is the most famous of the Gothic cathedrals of the Middle Ages and is distinguished for its size, antiquity, and architectural interest. Notre-Dame de Paris, referred to simply as Notre-Dame, is a medieval Catholic cathedral on the Île de la Cité in the 4th arrondissement of Paris.",
+        "HowToReach":"Notre-Dame Cathedral is accessible by Metro Ligne 4 Station Cité or Saint-Michel, Ligne 1, 11 Station Hôtel de Ville, Ligne 10 Station Maubert-Mutualité or Cluny – La Sorbonne, Lignes 7, 11 et 14 Station Châtelet. Also by RER Ligne B Station Saint-Michel - Notre-Dame, Ligne C Station Saint-Michel - Notre-Dame .",
+        "Eatery":"Found on a small sidestreet around the corner from Notre Dame, this is one of the best restaurants on Île de la Cité. With wooden benches and tables and a traditional bistrot ambiance, local islanders keep coming back for more of this restaurant’s tasty foie gras and fig terrine, garlicky snails, savory coq au vin, and asparagus risotto. At around 18€ for a main course, the prices are reasonable and the quality reliable. "
+    },
+    {
+        "id":"26",
+        "pic":"./louvre.jpg",
+       "title":"Louvre",
+        "category":"Paris",
+        "date":"08 Jan",
+        "Summary":"It became an art museum when the French king Louis XVI moved his residence to Versailles. During the French Revolution, the Louvre became a public museum.",
+        "bestTimetoVisit":"The best time to visit is Wednesday and Friday night when, as we mention above, the museum stays open until 9:45 p.m. and most large groups and school children are nowhere to be seen.",
+        "Location":"Rue de Rivoli, 75001 Paris, France",
+        "Details":"The Louvre, or the Louvre Museum, is the world's largest art museum and a historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement. Louvre, Louvre Museum(noun) an art museum that is a famous tourist attraction in Paris. louver, louvre, fin(noun) one of a set of parallel slats in a door or window to admit air and reject rain.",
+        "HowToReach":"It enjoys a central location that is easy to get to from several metro and bus lines. The nearest metro stations are: Palais Royal – Musée du Louvre (lines 1 and 7), Louvre-Rivoli (line 1), Tuileries (line 1), and Pont-Neuf (line 7).",
+        "Eatery":"Formerly called Le Saut du Loup, the restaurant of the Musée des Arts Decoratifs, which occupies a wing of the Louvre, received a very stylish makeover and new name in 2016. A great alternative to the over-popular stylish go-to restaurant of the Louvre, Le Café Marly, this chic venue designed by team behind trendy Monsieur Bleu with the added touch of star designer Jean-Charles de Castelbajac, the sleek interior draws in a fashionable clientele, however, on nice days their large terrace overlooking the Tuileries Garden is the place to be. The menu features beautifully presented French and Italian Riviera cuisine with prices to match."
+    }
+]

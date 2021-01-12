@@ -1,0 +1,32 @@
+.TPcard{
+    display: flex;
+    position: relative;
+    justify-content: start;
+}
+.TPcard:hover{
+    cursor:pointer;
+    transform: scale(1.01);
+}
+.TPcard img{
+    width: 90px;
+    margin-right: 10px;
+    height: 90px;
+    border-radius: 20%;
+}
+.datePropTP{
+    margin:0;
+    font-size:14px;
+}
+.otherDetailsTP img{
+    float:left;
+}
+#No{
+    font-size:40px;
+    color: grey;
+    position: absolute;
+    right: 0;
+    top:50%;
+}
+a{
+    text-decoration: none;
+}

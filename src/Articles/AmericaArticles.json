@@ -1,0 +1,67 @@
+[
+    {
+        "id":"31",
+        "pic":"./Hollywood.jpg",
+       "title":"Hollywood",
+        "category":"America",
+        "date":"11 Jan",
+        "bestTimetoVisit":"All Year Round,Los Angeles is world-famous for its beautiful mild weather",
+        "Summary":"Hollywood, also called Tinseltown, district within the city of Los Angeles, California, U.S., whose name is synonymous with the American film industry. ",
+        "Location":"LA,California,USA",
+       "Details":"Hollywood is a neighborhood in the central region of Los Angeles, California. Its name has come to be a shorthand reference for the U.S. film industry and the people associated with it. Many of its studios such as Paramount Pictures, Warner Bros., and Universal Pictures were founded there and Paramount still has its studios there.Hollywood was incorporated as a municipality in 1903. It was consolidated with the city of Los Angeles in 1910, and soon thereafter a prominent film industry emerged, eventually becoming the most recognizable in the world.",
+        "HowToReach":"Los Angeles County Metropolitan Transportation Authority (Metro) is the public transportation agency for L.A. County. Metro operates light rail, heavy rail, bus and bus rapid transit services.Metro's base fare is $1.75. ",
+        "Eatery":"Los Angeles has one of the best dining scenes in the country, offering everything from street food to James Beard Award-winning restaurants. In Hollywood, food aficionados can dine at landmarks like Musso & Frank Grill and Yamashiro, or experience the acclaimed restaurants of culinary stars like Ludo Lefebvre, Michael Cimarusti and Curtis Stone."
+    },
+    {
+        "id":"32",
+        "pic":"./NYC.jpg",
+       "title":"New York",
+        "category":"America",
+        "date":"12 Jan",
+        "Summary":"One of the city's greatest attributes is its diversity, and NYC is often thought of as America's melting pot. About 36 percent of New York's denizens hail from other countries, and you can hear as many as 800 languages spoken.",
+        "bestTimetoVisit":"An ideal New York City vacation involves mild weather and fewer travelers, and the times that have both are spring and fall. Visit the city anytime between April to early June, or around September to early November.",
+        "Location":"New York City,USA",
+       "Details":"There's no other city on the planet with an energy that can compete with New York. The fast pace, the buzzing traffic, the hustle and bustle of the people, the 24-hour life, and the creative spirit make NYC one of the most vibrant places in the world. New York has a way of giving me a feeling that I can accomplish anything I set out to do. On an ordinary day when I step outside my apartment building, I might find inspiration in any place – on the street, in the subway, at a Broadway show or in a sidewalk café. A plethora of inspiring, smart, creative people dwell in the nooks and crannies of this city.",
+        "HowToReach":"Air travelers to New York City may arrive at John F. Kennedy International Airport (JFK) or LaGuardia Airport (LGA), both in Queens, or Newark Liberty International Airport (EWR) in neighboring New Jersey.",
+        "Eatery":"A steak dinner at midnight? An early morning manicure? I can get anything I want at almost any time in NYC. Within a five-block radius of my apartment, I can hit the grocery store, drug store, pet store, and wine shop in a single sweep. This convenient lifestyle is addictive. We New Yorkers get spoiled, and when we leave the city, we forget that the rest of the world lives differently and on a more normal schedule."
+    },
+    {
+        "id":"33",
+        "pic":"./Grand Canyon.jpg",
+       "title":"Grand Canyon",
+        "category":"America",
+        "date":"12 Jan",
+        "Summary":"The Grand Canyon  is a steep-sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide.",
+        "bestTimetoVisit":"The Spring and Fall are widely considered the best times of the year to make a trip to the Grand Canyon. During these periods, the daytime temperatures are cool and the crowds are thin.",
+        "Location":"LA, USA",
+        "Details":"The Grand Canyon is a river valley in the Colorado Plateau that exposes uplifted Proterozoic and Paleozoic strata, and is also one of the six distinct physiographic sections of the Colorado Plateau province. Even though It is not the deepest canyon in the world (Kali Gandaki Gorge in Nepal is much deeper), the Grand Canyon is known for its visually overwhelming size and its intricate and colorful landscape. Geologically, it is significant because of the thick sequence of ancient rocks that are well preserved and exposed in the walls of the canyon. These rock layers record much of the early geologic history of the North American continent.",
+        "HowToReach":"Papillon offers a wide range of Grand Canyon tours. Soar over the Grand Canyon aboard a state-of-the-art helicopter or airplane, or embark on a ground or boat tour to get a close-up of the impressive canyon landscapes.",
+        "Eatery":"Unlike many other national parks, the Grand Canyon is home to several restaurants and grocery stores, meaning you won't have to necessarily stock up before you enter the park. There are an abundance of establishments on the South Rim (especially Grand Canyon Village), and fewer resources on the North Rim."
+    },
+    {
+        "id":"34",
+        "pic":"./SiliconValley.png",
+       "title":"Silicon Valley",
+        "category":"America",
+        "date":"13 Jan",
+        "Summary":"Silicon Valley, located in Northern California, is home to iconic technology companies like Apple, Google, Facebook, and Uber.",
+        "bestTimetoVisit":"The busiest month for tourism in Silicon Valley, CA, US is July, followed by August and May. Tourists are unlikely to visit Silicon Valley in September. ",
+        "Location":"California, USA",
+       "Details":"Silicon Valley covers a wide geographic area and points of interest are spread out among several cities. The following map  highlights the attractions listed in this guide. Visitors are often surprised when they arrive in Silicon Valley. The area is mostly suburban, filled with office parks . Companies are geographically dispersed and the traffic is bad. Many companies are developing innovative technology, but the work is done in access-restricted office buildings, hidden from the public.",
+        "HowToReach":"Tours By Locals operates nine-hour trips for up to six people, for $565. Golden Horizon Travel offers eight-hour tours by SUV for one to seven people, for $698 to $973, or by van for one to 14 people, for $1,299 to $1,769.",
+        "Eatery":"Silicon Valley and beyond is known for its numerous Michelin Star-rated restaurants but there are so many hidden gem eateries that offer mouthwatering food in welcoming atmospheres. SFGate recently published a list of the best places to eat in every Bay Area city, giving much deserved kudos to these restaurants that locals know and love."
+    },
+    {
+        "id":"35",
+        "pic":"./UniStudio.jpg",
+       "title":"Universal Studios",
+        "category":"America",
+        "date":"13 Jan",
+        "Summary":"Universal Studios Hollywood is the only authentic, working movie studio and theme park in the world.",
+        "bestTimetoVisit":"All Year Round",
+        "Location":"LA,California,USA.",
+       "Details":"HOGWARTS IS NOW IN UNIVERSAL STUDIOS!Now open at Universal Studios Hollywood, Jurassic World - The Ride is more real, more intense, thrill ride than ever before!Based on the Fast & Furious action movie series, Fast & Furious - Supercharged is a dynamic hydraulic-motion based ride that catapults guests into the high-stakes underground world of fast cars. A more family-friendly attraction, The Simpsons Ride™ takes you on a virtual reality roller coaster ride through Krusty the Clown’s low-budget theme park, Krustyland. ",
+        "HowToReach":"Los Angeles is world-famous for its car culture. Angelenos spend a good portion of their time driving around L.A., whether it’s for work or pleasure. The Los Angeles Department of Transportation (LADOT) operates the DASH Hollywood bus service",
+        "Eatery":"Taking place each year in January and July, dineL.A. is a 15-day dining event that features special prix fixe menus at more than 300 restaurants, showcasing Los Angeles as a premier dining destination while highlighting the diversity of the city's culinary experiences."
+    }
+]

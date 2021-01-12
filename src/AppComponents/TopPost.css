@@ -1,0 +1,19 @@
+#PositionTop{
+    position: relative;
+}
+#TopPostDiv{
+    position: absolute;
+    top:170%;
+    right:15%;
+    width: 20%;
+}
+#TopPostTitle{
+    font-size: 2vw;
+}
+.thr{
+    width: 20%;
+    position: absolute;
+    background-color: red;
+    left: 2%;
+    top:60px;
+}

@@ -1,0 +1,11 @@
+#latest{
+    margin-top:35px;
+}
+.story{
+    height: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+a:hover{
+font-weight: normal;
+}

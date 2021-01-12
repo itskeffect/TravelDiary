@@ -1,0 +1,21 @@
+
+#latest{
+    margin-top:25px;
+    margin-bottom: 2px;
+}
+.card{
+    text-align: justify;
+    margin: 13px;
+    width: 18vw;
+    float: left;
+}
+.lhr{
+    width: 10%;
+    position: absolute;
+    background-color: red;
+    left: 20%;
+}
+.scale{
+    cursor:pointer;
+    transform: scale(1.01);
+}

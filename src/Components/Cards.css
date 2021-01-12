@@ -1,0 +1,14 @@
+.content{
+    color: grey;
+}
+img{
+    width: 18vw;
+    height: 150px;
+}
+.dateProp{
+    text-align:left;
+}
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.01);
+}

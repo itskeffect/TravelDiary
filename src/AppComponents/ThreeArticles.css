@@ -1,0 +1,31 @@
+.mainThreeArticles{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainThreeArticles img:hover{
+    transform: scale(1.01);
+    opacity: 0.7;
+}
+.mainThreeArticles h2{
+    margin:0;
+    font-size:20px;
+}
+.mainThreeArticles p{
+    margin:0;
+    padding: 0;
+    color: grey;
+}
+#mainArticle{
+    width: 65%;
+}
+#mainArticle img{
+    margin:0;
+    width: 35vw;
+    height: 20vw;
+}
+.otherTwo img{
+    width: 22vw;
+    height: 8.5vw;
+}

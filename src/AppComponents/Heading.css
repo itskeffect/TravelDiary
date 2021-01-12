@@ -1,0 +1,27 @@
+.TitleOfBlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7vh;
+    margin: 3vh;
+}
+.TitleOfBlog span{
+    font-size:4vh;
+    margin: 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vh;
+}
+a:hover{
+    font-weight: bold;
+}

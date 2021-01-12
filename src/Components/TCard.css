@@ -1,0 +1,16 @@
+.card{
+    text-align: justify;
+}
+.content{
+    color: grey;
+}
+.Tcard{
+    margin: 5px;
+    width: 18vw;
+    height: 20vw;
+    float:left;
+}
+.Tcard:hover{
+    cursor:pointer;
+    transform: scale(1.01); 
+}
