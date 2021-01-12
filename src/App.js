@@ -33,7 +33,7 @@ class App extends React.Component {
     return (
       <div className="wholeBody">
         <Heading />
-        <Route exact path="http://github.io/TravelStyle" component={HomePage}/>
+        <Route exact path="/" component={HomePage}/>
         <Route exact path="/asia" component={AsiaPage}/>
         <Route exact path="/paris" component={ParisPage}/>
         <Route exact path="/america" component={AmericaPage}/>
