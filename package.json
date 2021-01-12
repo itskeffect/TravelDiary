@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-  "homepage":"https://itskeffect.github.io/TravelStyle",
-=======
   
->>>>>>> 5ebb580c01f074457437df95ebb8a8ed46ac44f6
+  "homepage":"https://itskeffect.github.io/TravelStyle",
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
@@ -21,14 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
-=======
-    "eject": "react-scripts eject"
-    
->>>>>>> 5ebb580c01f074457437df95ebb8a8ed46ac44f6
   },
   "eslintConfig": {
     "extends": [
