@@ -26,7 +26,7 @@
     },
     {
         "id":"3",
-        "pic":"./p1.jpg",
+        "pic":"p1.jpg",
        "title":"Eiffel Tower",
         "category":"Paris",
         "date":"08 Jan",
@@ -52,7 +52,7 @@
     },
     {
         "id":"5",
-        "pic":"./Seoul.jpg",
+        "pic":"Seoul.jpg",
        "title":"Seoul",
         "category":"Asia",
         "date":"10 Jan",

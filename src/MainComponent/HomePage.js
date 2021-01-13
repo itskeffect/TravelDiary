@@ -1,5 +1,5 @@
 import React from 'react';
-import ThreeArticles from '../AppComponents/ThreeArticles';
+import ThreeArticles from '../AppComponents/ThreeArticles/ThreeArticles';
 import Latest from '../AppComponents/Latest';
 import LatestArticles from '../AppComponents/LatestArticles';
 import LatestStories from '../AppComponents/LatestStories';
