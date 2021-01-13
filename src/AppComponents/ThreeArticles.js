@@ -3,7 +3,7 @@ import './ThreeArticles.css';
 import AsiaArticles from '../Articles/AsiaArticles.json';
 import ParisArticles from '../Articles/ParisArticles.json';
 import AmericaArticles from '../Articles/AmericaArticles.json';
-import {Link,Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 class ThreeArticles extends React.Component{
@@ -11,19 +11,19 @@ class ThreeArticles extends React.Component{
         return(
             <div className="mainThreeArticles">
                 <div id="mainArticle">
-                <Link to="/asia/asia-5"> <img src={AsiaArticles[4].pic} />
+                <Link to="/asia/asia-5"> <img src={AsiaArticles[4].pic} alt={AsiaArticles[4].title} />
                 </Link> 
                 
                 <h2>Article 1</h2>
                 <p>{AsiaArticles[4].category}/ {AsiaArticles[4].date}</p>
                 </div>
                 <div className="otherTwo">
-                    <Link to="/paris/paris-2"><img src={ParisArticles[1].pic} />
+                    <Link to="/paris/paris-2"><img src={ParisArticles[1].pic} alt={ParisArticles[1].title}/>
                     </Link>  
                     <h2>Article 2</h2>
                     <p>{ParisArticles[1].category}/ {ParisArticles[1].date}</p>
                     <br/> 
-                    <Link to="/america/america-1"> <img src={AmericaArticles[0].pic} />
+                    <Link to="/america/america-1"> <img src={AmericaArticles[0].pic} alt={AmericaArticles[0].title}/>
                     </Link>  
                     <h2>Article 3</h2>
                     <p>{AmericaArticles[0].category}/ {AmericaArticles[0].date}</p>

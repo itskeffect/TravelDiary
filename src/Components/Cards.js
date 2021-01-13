@@ -6,15 +6,12 @@ import {Link} from 'react-router-dom';
 import './Cards.css';
 
 class Card extends React.Component{
-     constructor(props){
-         super(props);
-     }
     render(){
-        if(this.props.cat=="Asia"){
+        if(this.props.cat==="Asia"){
             return(
                 <Link to="/asia/asia-1">
                     <div className="card scale">
-                        <img src={AsiaArticle[0].pic} />
+                        <img src={AsiaArticle[0].pic} alt={AsiaArticle[0].title}/>
                         <h2>
                             {AsiaArticle[0].title}
                         </h2>
@@ -29,11 +26,11 @@ class Card extends React.Component{
                 </Link>
             );
         }
-        else if(this.props.cat=="Paris"){
+        else if(this.props.cat==="Paris"){
             return(
                 <Link to="/paris/paris-1">
                 <div className="card">
-                    <img src={ParisArticle[0].pic} />
+                    <img src={ParisArticle[0].pic} alt={ParisArticle[0].title}/>
                     <h2>
                         {ParisArticle[0].title}
                     </h2>
@@ -52,7 +49,7 @@ class Card extends React.Component{
             return(
                 <Link to="/america/america-1">
                     <div className="card">
-                    <img src={AmericaArticle[0].pic} />
+                    <img src={AmericaArticle[0].pic} alt={AmericaArticle[0].title}/>
                     <h2>
                         {AmericaArticle[0].title}
                     </h2>

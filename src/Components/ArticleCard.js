@@ -5,14 +5,14 @@ import AsiaList from '../Articles/AsiaArticles.json';
 import ParisList from '../Articles/ParisArticles.json';
 import AmericaList from '../Articles/AmericaArticles.json';
 const title =(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].title}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].title}
@@ -29,14 +29,14 @@ const title =(category,no)=>{
    
 }
 const date=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].date}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].date}
@@ -52,19 +52,19 @@ const date=(category,no)=>{
     }
 }
 const picture=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         let url = `.${ParisList[no-1].pic}`
         return(
             <div>
-                <img src={url} />
+                <img src={url}  alt={ParisList[no-1].title} />
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         let url = `.${AsiaList[no-1].pic}`
         return(
             <div>
-                 <img src={url} />
+                 <img src={url} alt={AsiaList[no-1].title}/>
             </div>
         );
     }
@@ -72,20 +72,20 @@ const picture=(category,no)=>{
         let url = `.${AmericaList[no-1].pic}`
         return(
             <div>
-                 <img src={url} />
+                 <img src={url} alt={AmericaList[no-1].title}/>
             </div>
         );
     }
 }
 const about=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].Summary}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].Summary}
@@ -101,14 +101,14 @@ const about=(category,no)=>{
     }
 }
 const location=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].Location}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].Location}
@@ -124,14 +124,14 @@ const location=(category,no)=>{
     }
 }
 const howToReach=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].HowToReach}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].HowToReach}
@@ -147,14 +147,14 @@ const howToReach=(category,no)=>{
     }
 }
 const details=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].Details}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].Details}
@@ -170,14 +170,14 @@ const details=(category,no)=>{
     }
 }
 const eatAround=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].Eatery}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].Eatery}
@@ -193,14 +193,14 @@ const eatAround=(category,no)=>{
     }
 }
 const visit=(category,no)=>{
-    if(category=="paris"){
+    if(category==="paris"){
         return(
             <div>
                 {ParisList[no-1].bestTimetoVisit}
             </div>
         );
     }
-    else if(category=="asia"){
+    else if(category==="asia"){
         return(
             <div>
                 {AsiaList[no-1].bestTimetoVisit}
@@ -216,19 +216,16 @@ const visit=(category,no)=>{
     }
 }
 
-class ArticleCard extends React.Component{
-    constructor(props){
-        super(props);
-    }    
+class ArticleCard extends React.Component{  
     render(){
         return(
             <div>
                 <div>
                 <div className="likeAndShare" id="like">
-                    <img src="../like.png" />
+                    <img src="../like.png" alt="Like"/>
                 </div>
                 <div className="likeAndShare" id="share">
-                    <img src="../share.png"/>
+                    <img src="../share.png" alt="Share"/>
                 </div>
                 </div>
                 <div id="blogPage">
@@ -237,7 +234,7 @@ class ArticleCard extends React.Component{
                         </h2>
                     <div id="logoDiv">
                         <div>
-                            <img id="logoImg" src="../WanderLust.jpg" />
+                            <img id="logoImg" src="../WanderLust.jpg" alt="WanderLust Logo"/>
                         </div>
                         <div>
                             TravelDiary <br/><br/>
@@ -290,7 +287,7 @@ class ArticleCard extends React.Component{
                     <hr />
                     <div id="logoDiv">
                         <div>
-                            <img id="logoImg" src="../WanderLust.jpg" />
+                            <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo"/>
                         </div>
                         <div>
                             Written by: <br/><br/>
@@ -317,7 +314,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg" />
+                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo" />
                                 </div>
                                 <div>
                                     TravelDiary <br/>
@@ -335,7 +332,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg" />
+                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo" />
                                 </div>
                                 <div>
                                     TravelDiary <br/>
@@ -353,7 +350,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg" />
+                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo"/>
                                 </div>
                                 <div>
                                     TravelDiary <br/>

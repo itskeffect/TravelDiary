@@ -34,6 +34,7 @@ class App extends React.Component {
       <div className="wholeBody">
         <Heading />
         <Route exact path="/" component={HomePage}/>
+        <Route exact path="/TravelStyle" component={HomePage}/>
         <Route exact path="/asia" component={AsiaPage}/>
         <Route exact path="/paris" component={ParisPage}/>
         <Route exact path="/america" component={AmericaPage}/>

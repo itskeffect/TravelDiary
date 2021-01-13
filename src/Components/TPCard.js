@@ -1,20 +1,16 @@
 import React from 'react';
-import ArticleList from '../Articles/articles.json';
 import AsiaArticle from '../Articles/AsiaArticles.json';
 import ParisArticle from '../Articles/ParisArticles.json';
 import AmericaArticle from '../Articles/AmericaArticles.json';
 import './TPCard.css';
 
 class TPCard extends React.Component{
-     constructor(props){
-         super(props);
-     }
     render(){
-        if(this.props.cat=="asia"){
+        if(this.props.cat==="asia"){
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={AsiaArticle[this.props.no-1].pic} />
+                        <img src={AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -31,11 +27,11 @@ class TPCard extends React.Component{
                 </div>
             );
         }
-        else if(this.props.cat=="paris"){
+        else if(this.props.cat==="paris"){
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={ParisArticle[this.props.no-1].pic} />
+                        <img src={ParisArticle[this.props.no-1].pic} alt= {ParisArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -56,7 +52,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={AmericaArticle[this.props.no-1].pic} />
+                        <img src={AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 

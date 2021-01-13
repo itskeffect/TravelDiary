@@ -4,7 +4,6 @@ import Latest from '../AppComponents/Latest';
 import LatestArticles from '../AppComponents/LatestArticles';
 import LatestStories from '../AppComponents/LatestStories';
 import TopPost from '../AppComponents/TopPost';
-import {Route} from 'react-router-dom';
 class HomePage extends React.Component {
   render(){
     return (

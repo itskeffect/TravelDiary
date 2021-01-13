@@ -10,7 +10,7 @@ class textCard extends React.Component{
          console.log(this.props.no);
      }
     render(){
-        if(this.props.cat=="Asia"){
+        if(this.props.cat==="Asia"){
             return(
                 <div className="Tcard">
                     <h2>
@@ -26,7 +26,7 @@ class textCard extends React.Component{
                 </div>
             );
         }
-        else if(this.props.cat=="Paris"){
+        else if(this.props.cat==="Paris"){
             return(
                 <div className="Tcard">
                     <h2>
@@ -58,20 +58,6 @@ class textCard extends React.Component{
                 </div>
             );
         }
-        // return(
-        //     <div className="Tcard">
-        //         <h2>
-        //             {ArticleList[].title}
-        //         </h2>
-        //         <p className="content">
-        //             {ArticleList[this.props.no-1].Summary}
-        //         </p>
-        //         <br />
-        //         <p className="dateProp">
-        //          {ArticleList[this.props.no-1].category}/ {ArticleList[this.props.no-1].date}
-        //         </p>
-        //     </div>
-        // );
     }
 }
 

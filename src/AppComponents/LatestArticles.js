@@ -5,12 +5,12 @@ import HCard from '../Components/HorizontalCard';
 const displayCards = (noOfArticles,category) =>{
     var allCards =[];
     for(var i=0;i<noOfArticles;i++){
-        if(category=="home"){
+        if(category==="home"){
             var catHere;
-            if(i%2==0){
+            if(i%2===0){
              catHere="paris";   
             }
-            else if(i%3==0){
+            else if(i%3===0){
                 catHere="asia";
             }
             else{
@@ -29,9 +29,6 @@ const displayCards = (noOfArticles,category) =>{
     );
 }
 class LatestArticles extends React.Component{
-    constructor(props){
-        super(props);
-    }
     render(){
         return(
             <div className="latestarticles">

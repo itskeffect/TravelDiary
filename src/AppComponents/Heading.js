@@ -1,6 +1,6 @@
 import React from 'react';
 import './Heading.css';
-import {BrowserRouter as Router,Link,Route,Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Heading extends React.Component{
     render(){

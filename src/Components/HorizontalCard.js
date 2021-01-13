@@ -5,16 +5,13 @@ import AmericaArticle from '../Articles/AmericaArticles.json';
 import './HorizontalCards.css';
 
 class Card extends React.Component{
-     constructor(props){
-         super(props);
-     }
     render(){
-        if(this.props.catName=="asia"){
+        if(this.props.catName==="asia"){
             return(
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={AsiaArticle[this.props.no-1].pic} />
+                        <img src={AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 
@@ -31,12 +28,12 @@ class Card extends React.Component{
                 </div>
             );
         }
-        else if(this.props.catName=="paris"){
+        else if(this.props.catName==="paris"){
             return(
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={ParisArticle[this.props.no-1].pic} />
+                        <img src={ParisArticle[this.props.no-1].pic} alt={ParisArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 
@@ -58,7 +55,7 @@ class Card extends React.Component{
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={AmericaArticle[this.props.no-1].pic} />
+                        <img src={AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 

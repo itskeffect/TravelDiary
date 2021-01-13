@@ -1,7 +1,7 @@
 .TPcard{
     display: flex;
     position: relative;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .TPcard:hover{
     cursor:pointer;
