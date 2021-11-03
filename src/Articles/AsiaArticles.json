@@ -1,7 +1,7 @@
 [
     {
         "id":"11",
-        "pic":"./delhi1.jpg",
+        "pic":"delhi1.jpg",
         "title":"Delhi",
         "category":"Asia",
         "date":"09 Jan",
@@ -14,7 +14,7 @@
     },
     {
         "id":"12",
-        "pic":"./mumbai.jpg",
+        "pic":"mumbai.jpg",
        "title":"Mumbai",
         "category":"Asia",
         "date":"09 Jan",
@@ -27,7 +27,7 @@
     },
     {
         "id":"13",
-        "pic":"./ISCKONMathura.jpg",
+        "pic":"ISCKONMathura.jpg",
         "title":"ISCKON Temple",
         "category":"Asia",
         "date":"05 Jan",
@@ -40,7 +40,7 @@
     },
     {
         "id":"14",
-        "pic":"./tokyo.jpg",
+        "pic":"tokyo.jpg",
        "title":"Tokyo",
         "category":"Asia",
         "date":"10 Jan",
