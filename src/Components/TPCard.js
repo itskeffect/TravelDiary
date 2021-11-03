@@ -3,18 +3,14 @@ import AsiaArticle from '../Articles/AsiaArticles.json';
 import ParisArticle from '../Articles/ParisArticles.json';
 import AmericaArticle from '../Articles/AmericaArticles.json';
 import './TPCard.css';
-import ParisArticles from "../Articles/ParisArticles.json";
-import AsiaArticles from "../Articles/AsiaArticles.json";
 
 class TPCard extends React.Component{
-
     render(){
         if(this.props.cat==="asia"){
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        {console.log(AsiaArticle[this.props.no-1].pic)}
-                        <img src={require(`../Assets/${AsiaArticle[this.props.no-1].pic}`).default} alt={AsiaArticle[this.props.no-1].title}/>
+                        <img src={AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -35,7 +31,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={require(`../Assets/${ParisArticle[this.props.no-1].pic}`).default} alt= {ParisArticle[this.props.no-1].title}/>
+                        <img src={ParisArticle[this.props.no-1].pic} alt= {ParisArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -56,7 +52,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={require(`../Assets/${AmericaArticle[this.props.no-1].pic}`).default} alt={AmericaArticle[this.props.no-1].title}/>
+                        <img src={AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
