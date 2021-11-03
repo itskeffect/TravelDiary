@@ -11,7 +11,7 @@ class Card extends React.Component{
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
+                        <img src={require(`../Assets/${AsiaArticle[this.props.no-1].pic}`).default} alt={AsiaArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 
@@ -33,7 +33,7 @@ class Card extends React.Component{
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={ParisArticle[this.props.no-1].pic} alt={ParisArticle[this.props.no-1].title}/>
+                        <img src={require(`../Assets/${ParisArticle[this.props.no-1].pic}`).default} alt={ParisArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 
@@ -55,7 +55,7 @@ class Card extends React.Component{
                 <div className="Hcard">
                     <hr />
                     <div className="otherDetails">
-                        <img src={AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
+                        <img src={require(`../Assets/${AmericaArticle[this.props.no-1].pic}`).default} alt={AmericaArticle[this.props.no-1].title}/>
                     </div>
                     <div >
                         <h2> 

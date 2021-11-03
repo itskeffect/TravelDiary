@@ -1,7 +1,7 @@
 [
     {
         "id":"21",
-        "pic":"./DLP.jpg",
+        "pic":"DLP.jpg",
        "title":"Disney Land Paris",
         "category":"Paris",
         "date":"09 Jan",
@@ -27,7 +27,7 @@
     },
     {
         "id":"23",
-        "pic":"./Triomphe.jpg",
+        "pic":"Triomphe.jpg",
        "title":"Arc de Triomphe",
         "category":"Paris",
         "date":"10 Jan",
@@ -40,7 +40,7 @@
     },
     {
         "id":"24",
-        "pic":"./Versailles.jpg",
+        "pic":"Versailles.jpg",
        "title":"Palace of Versailles",
         "category":"Paris",
         "date":"14 Jan",
@@ -53,7 +53,7 @@
     },
     {
         "id":"25",
-        "pic":"./NotreDame.jpg",
+        "pic":"NotreDame.jpg",
        "title":"Cathédrale Notre-Dame de Paris",
         "category":"Paris",
         "date":"14 Jan",
@@ -66,7 +66,7 @@
     },
     {
         "id":"26",
-        "pic":"./louvre.jpg",
+        "pic":"louvre.jpg",
        "title":"Louvre",
         "category":"Paris",
         "date":"08 Jan",
