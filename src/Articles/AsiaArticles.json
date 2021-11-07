@@ -1,7 +1,7 @@
 [
     {
         "id":"11",
-        "pic":"./delhi1.jpg",
+        "pic":"1KtvHYA4sN3kuLptvCsO9jT6KHLyn9489",
         "title":"Delhi",
         "category":"Asia",
         "date":"09 Jan",
@@ -14,7 +14,7 @@
     },
     {
         "id":"12",
-        "pic":"./mumbai.jpg",
+        "pic":"1ZIRvx7yIkb1Z7GW_bOlH0dkWQ1UEAQsx",
        "title":"Mumbai",
         "category":"Asia",
         "date":"09 Jan",
@@ -27,7 +27,7 @@
     },
     {
         "id":"13",
-        "pic":"./ISCKONMathura.jpg",
+        "pic":"1Mt_Ssk-Cags0ntj0waUYb5ow4N6keWqw",
         "title":"ISCKON Temple",
         "category":"Asia",
         "date":"05 Jan",
@@ -40,7 +40,7 @@
     },
     {
         "id":"14",
-        "pic":"./tokyo.jpg",
+        "pic":"1XFHL_eQvOzTkwreAYu4jJbW0KP9Uj_oh",
        "title":"Tokyo",
         "category":"Asia",
         "date":"10 Jan",
@@ -53,7 +53,7 @@
     },
     {
         "id":"15",
-        "pic":"Seoul.jpg",
+        "pic":"1K5w2vyzLO08OhQMbrZoqFy9l86PB_GCB",
        "title":"Seoul",
         "category":"Asia",
         "date":"10 Jan",

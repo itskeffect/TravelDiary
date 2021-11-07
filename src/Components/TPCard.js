@@ -10,7 +10,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
+                        <img src={"https://drive.google.com/uc?export=view&id=" + AsiaArticle[this.props.no-1].pic} alt={AsiaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -31,7 +31,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={ParisArticle[this.props.no-1].pic} alt= {ParisArticle[this.props.no-1].title}/>
+                        <img src={"https://drive.google.com/uc?export=view&id=" + ParisArticle[this.props.no-1].pic} alt= {ParisArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 
@@ -52,7 +52,7 @@ class TPCard extends React.Component{
             return(
                 <div className="TPcard">
                     <div className="otherDetailsTP">
-                        <img src={AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
+                        <img src={"https://drive.google.com/uc?export=view&id=" + AmericaArticle[this.props.no-1].pic} alt={AmericaArticle[this.props.no-1].title}/>
                     </div>
                     <div className="otherTP">
                         <h3> 

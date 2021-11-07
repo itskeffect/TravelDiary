@@ -1,7 +1,7 @@
 [
     {
         "id":"31",
-        "pic":"Hollywood.jpg",
+        "pic":"1lMzy-Uzrb2nNljIJ4zJZveRAjUH6yjls",
        "title":"Hollywood",
         "category":"America",
         "date":"11 Jan",
@@ -14,7 +14,7 @@
     },
     {
         "id":"32",
-        "pic":"./NYC.jpg",
+        "pic":"1lEKLObP8q_OykQ1Aul1ATADWIvJkkSyh",
        "title":"New York",
         "category":"America",
         "date":"12 Jan",
@@ -27,7 +27,7 @@
     },
     {
         "id":"33",
-        "pic":"./Grand Canyon.jpg",
+        "pic":"1tpDxIOR6xGCwQg_lW2rUjo3dNjRFc5W1",
        "title":"Grand Canyon",
         "category":"America",
         "date":"12 Jan",
@@ -40,7 +40,7 @@
     },
     {
         "id":"34",
-        "pic":"./SiliconValley.png",
+        "pic":"1PR_BaMA9in1frwfHWFEFo55Os6xZntGc",
        "title":"Silicon Valley",
         "category":"America",
         "date":"13 Jan",
@@ -53,7 +53,7 @@
     },
     {
         "id":"35",
-        "pic":"./UniStudio.jpg",
+        "pic":"17VJThtCdo50SqGoKgL1WEuwSVqjKdBZl",
        "title":"Universal Studios",
         "category":"America",
         "date":"13 Jan",

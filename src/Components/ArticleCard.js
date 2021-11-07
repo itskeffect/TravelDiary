@@ -53,26 +53,26 @@ const date=(category,no)=>{
 }
 const picture=(category,no)=>{
     if(category==="paris"){
-        let url = `.${ParisList[no-1].pic}`
+        let url = ParisList[no-1].pic
         return(
             <div>
-                <img src={url}  alt={ParisList[no-1].title} />
+                <img src={"https://drive.google.com/uc?export=view&id=" + url}  alt={ParisList[no-1].title} />
             </div>
         );
     }
     else if(category==="asia"){
-        let url = `.${AsiaList[no-1].pic}`
+        let url = AsiaList[no-1].pic
         return(
             <div>
-                 <img src={url} alt={AsiaList[no-1].title}/>
+                 <img src={"https://drive.google.com/uc?export=view&id=" + url} alt={AsiaList[no-1].title}/>
             </div>
         );
     }
     else{
-        let url = `.${AmericaList[no-1].pic}`
+        let url = AmericaList[no-1].pic
         return(
             <div>
-                 <img src={url} alt={AmericaList[no-1].title}/>
+                 <img src={url} alt={"https://drive.google.com/uc?export=view&id=" + AmericaList[no-1].title}/>
             </div>
         );
     }
@@ -222,10 +222,10 @@ class ArticleCard extends React.Component{
             <div>
                 <div>
                 <div className="likeAndShare" id="like">
-                    <img src="../like.png" alt="Like"/>
+                    <img src={"https://drive.google.com/uc?export=view&id=" + "1oFLW-74Cp55U5EXNf3FxyEyc_4INOWqs"} alt="Like"/>
                 </div>
                 <div className="likeAndShare" id="share">
-                    <img src="../share.png" alt="Share"/>
+                    <img src={"https://drive.google.com/uc?export=view&id=" + "1ggB9MXCZv0XA26u-0zJ1oQJ_DmTzNcvV"} alt="Share"/>
                 </div>
                 </div>
                 <div id="blogPage">
@@ -234,7 +234,7 @@ class ArticleCard extends React.Component{
                         </h2>
                     <div id="logoDiv">
                         <div>
-                            <img id="logoImg" src="../WanderLust.jpg" alt="WanderLust Logo"/>
+                            <img id="logoImg" src={"https://drive.google.com/uc?export=view&id=" + "1_W9mA-How2_ULtekEepDMI3R3rLMsm7w"} alt="WanderLust Logo"/>
                         </div>
                         <div>
                             TravelDiary <br/><br/>
@@ -287,7 +287,7 @@ class ArticleCard extends React.Component{
                     <hr />
                     <div id="logoDiv">
                         <div>
-                            <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo"/>
+                            <img id="logoImg" src={"https://drive.google.com/uc?export=view&id=" + "1_W9mA-How2_ULtekEepDMI3R3rLMsm7w"}  alt="WanderLust Logo"/>
                         </div>
                         <div>
                             Written by: <br/><br/>
@@ -314,7 +314,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo" />
+                                    <img id="logoImg" src={"https://drive.google.com/uc?export=view&id=" + "1_W9mA-How2_ULtekEepDMI3R3rLMsm7w"}  alt="WanderLust Logo" />
                                 </div>
                                 <div>
                                     TravelDiary <br/>
@@ -332,7 +332,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo" />
+                                    <img id="logoImg" src={"https://drive.google.com/uc?export=view&id=" + "1_W9mA-How2_ULtekEepDMI3R3rLMsm7w"}  alt="WanderLust Logo" />
                                 </div>
                                 <div>
                                     TravelDiary <br/>
@@ -350,7 +350,7 @@ class ArticleCard extends React.Component{
                             </p>
                             <div id="logoDiv">
                                 <div>
-                                    <img id="logoImg" src="../WanderLust.jpg"  alt="WanderLust Logo"/>
+                                    <img id="logoImg" src={"https://drive.google.com/uc?export=view&id=" + "1_W9mA-How2_ULtekEepDMI3R3rLMsm7w"}  alt="WanderLust Logo"/>
                                 </div>
                                 <div>
                                     TravelDiary <br/>
