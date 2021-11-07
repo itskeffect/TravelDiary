@@ -72,7 +72,7 @@ const picture=(category,no)=>{
         let url = AmericaList[no-1].pic
         return(
             <div>
-                 <img src={url} alt={"https://drive.google.com/uc?export=view&id=" + AmericaList[no-1].title}/>
+                 <img src={"https://drive.google.com/uc?export=view&id=" + url} alt={AmericaList[no-1].title}/>
             </div>
         );
     }
