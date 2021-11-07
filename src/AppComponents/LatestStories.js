@@ -20,7 +20,7 @@ class LatestStories extends React.Component{
                 <Link to="/paris/paris-5">
                     <TCard no="5" cat="Paris"/>
                 </Link>
-                <Link to="/aisa/asia-4">
+                <Link to="/asia/asia-4">
                     <TCard no="4" cat="Asia"/>
                 </Link>
                 </div>
