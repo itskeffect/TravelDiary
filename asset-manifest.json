@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TravelStyle/static/css/main.f0eb7a1c.chunk.css",
+    "main.js": "/TravelStyle/static/js/main.f94b9f2b.chunk.js",
+    "main.js.map": "/TravelStyle/static/js/main.f94b9f2b.chunk.js.map",
+    "runtime-main.js": "/TravelStyle/static/js/runtime-main.aa20d50c.js",
+    "runtime-main.js.map": "/TravelStyle/static/js/runtime-main.aa20d50c.js.map",
+    "static/js/2.b46515f4.chunk.js": "/TravelStyle/static/js/2.b46515f4.chunk.js",
+    "static/js/2.b46515f4.chunk.js.map": "/TravelStyle/static/js/2.b46515f4.chunk.js.map",
+    "static/js/3.17395e40.chunk.js": "/TravelStyle/static/js/3.17395e40.chunk.js",
+    "static/js/3.17395e40.chunk.js.map": "/TravelStyle/static/js/3.17395e40.chunk.js.map",
+    "index.html": "/TravelStyle/index.html",
+    "static/css/main.f0eb7a1c.chunk.css.map": "/TravelStyle/static/css/main.f0eb7a1c.chunk.css.map",
+    "static/js/2.b46515f4.chunk.js.LICENSE.txt": "/TravelStyle/static/js/2.b46515f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa20d50c.js",
+    "static/js/2.b46515f4.chunk.js",
+    "static/css/main.f0eb7a1c.chunk.css",
+    "static/js/main.f94b9f2b.chunk.js"
+  ]
+}
